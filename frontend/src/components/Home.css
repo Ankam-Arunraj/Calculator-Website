@@ -1,0 +1,69 @@
+.home {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .banner {
+    background-color: #4CAF50;
+    color: white;
+    padding: 50px 20px;
+  }
+  
+  .banner h1 {
+    margin: 0;
+    font-size: 48px;
+  }
+  
+  .banner p {
+    font-size: 24px;
+  }
+  
+  .search-bar {
+    margin: 20px 0;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+  }
+  
+  .search-bar button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .featured-calculators, .categories {
+    margin: 40px 0;
+  }
+  
+  .calculator-grid, .category-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .calculator-card, .category-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 200px;
+    transition: transform 0.2s;
+  }
+  
+  .calculator-card:hover, .category-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .calculator-card h3, .category-card h3 {
+    margin: 0;
+  }
+  
